@@ -34,6 +34,8 @@
 (global-set-key (kbd "M-p") #'$scroll-down-multiline)
 (global-set-key (kbd "M-n") #'$scroll-up-multiline)
 (global-set-key (kbd "s-<return>") #'$newline-at-end-of-line)
+(global-set-key (kbd "s-[") #'pop-to-mark-command)
+(global-set-key (kbd "s-]") #'unpop-to-mark-command)
 
 ;;; SPC commands
 (global-set-key (kbd "C-c SPC l") '$select-line)
